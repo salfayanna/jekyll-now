@@ -83,7 +83,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-collections:
-  photos:
-    output: true
