@@ -86,4 +86,12 @@ exclude:
   - CNAME
 
 collections:
-  photo_gallery:
+  photos:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+        type: photos
+    values:
+      layout: photo
