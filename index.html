@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<ul class="photo-gallery" id="image-popups">
+<ul class="photo-gallery">
 {% for image in site.static_files %}
     {% if image.path contains 'images/thumbnails' %}
 		<li>
-			<a href="{{ site.baseurl }}/images/{{ image.name }}" data-effect="mfp-zoom-in">
+			<a href="#" data-featherlight="{{ site.baseurl }}/images/{{ image.name }}">
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			</a>
 		</li>
@@ -14,49 +14,24 @@ layout: default
 </ul>
 
 <script>
-// Inline popups
-$('#inline-popups').magnificPopup({
-  delegate: 'a',
-  removalDelay: 500, //delay removal by X to allow out-animation
-  callbacks: {
-    beforeOpen: function() {
-       this.st.mainClass = this.st.el.attr('data-effect');
-    }
-  },
-  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-});
+// Get the modal
+var modal = document.getElementById('myModal');
 
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
 
-// Image popups
-$('#image-popups').magnificPopup({
-  delegate: 'a',
-  type: 'image',
-  removalDelay: 500, //delay removal by X to allow out-animation
-  callbacks: {
-    beforeOpen: function() {
-      // just a hack that adds mfp-anim class to markup 
-       this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
-       this.st.mainClass = this.st.el.attr('data-effect');
-    }
-  },
-  closeOnContentClick: true,
-  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-});
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-
-// Hinge effect popup
-$('a.hinge').magnificPopup({
-  mainClass: 'mfp-with-fade',
-  removalDelay: 1000, //delay removal by X to allow out-animation
-  callbacks: {
-    beforeClose: function() {
-        this.content.addClass('hinge');
-    }, 
-    close: function() {
-        this.content.removeClass('hinge'); 
-    }
-  },
-  midClick: true
-});
-
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
 </script>
