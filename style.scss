@@ -287,3 +287,18 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+.photo-gallery, .photo-gallery li {
+	list-style: none;
+	padding: 0;
+}
+
+.photo-gallery li {
+	display: inline-block;
+	width: 33%;
+}
+
+.photo-gallery li img {
+	width: 100%;
+}
