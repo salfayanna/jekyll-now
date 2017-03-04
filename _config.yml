@@ -87,10 +87,3 @@ exclude:
 collections:
   photos:
     output: true
-
-defaults:
-   scope:
-      path: ""
-        type: photos
-    values:
-      layout: photo
