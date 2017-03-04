@@ -3,7 +3,7 @@ layout: default
 ---
 <ul class="photo-gallery">
 {% for image in site.static_files %}
-    {% if image.path contains 'images' %}
+    {% if image.path contains 'images/thumbnails' %}
 		<li>
 			<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 		</li>
