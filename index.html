@@ -5,7 +5,7 @@ layout: default
 {% for image in site.static_files %}
     {% if image.path contains 'images/thumbnails' %}
 		<li>
-			<a href="{{ site.baseurl }}/images/{{file.name}}">
+			<a href="{{ site.baseurl }}/images/{{ image.name }}">
 				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
 			</a>
 		</li>
