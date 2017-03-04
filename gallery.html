@@ -10,6 +10,11 @@ images:
    - image_path: /images/04.jpg
   title: Forest4
    - image_path: /images/05.jpg
-  title: Forest5
-  
+  title: Forest5  
 ---
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
