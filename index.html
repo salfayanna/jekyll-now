@@ -1,19 +1,7 @@
 ---
-layout: default
+layout: gallery
+no_menu_item: true # required only for this example website because of menu construction
+support: [jquery, gallery]
 ---
-<ul class="photo-gallery">
-{% for image in site.static_files %}
-    {% if image.path contains 'images/thumbnails' %}
-		<li>
-			<a href="#" data-featherlight="{{ site.baseurl }}/images/{{ image.name }}">
-				<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-			</a>
-		</li>
-    {% endif %}
-{% endfor %}
-</ul>
 
-<div class="video-container">
-		<iframe class="video-frame" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Sy0dxfV_bbw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
+{% include gallery-layout.html gallery=site.data.galleries.portfolio %}
