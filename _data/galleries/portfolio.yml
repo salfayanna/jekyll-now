@@ -1,5 +1,93 @@
 picture_path: portfolio
 pictures:
+- filename: '28'
+  original: 28-1080x1080.jpg
+  sizes: []
+  thumbnail: 28-thumbnail.jpg
+- filename: '02'
+  original: 02-1920x1080.jpg
+  sizes: []
+  thumbnail: 02-thumbnail.jpg
+- filename: '25'
+  original: 25-942x942.jpg
+  sizes: []
+  thumbnail: 25-thumbnail.jpg
+- filename: '26'
+  original: 26-987x987.jpg
+  sizes: []
+  thumbnail: 26-thumbnail.jpg
+- filename: '27'
+  original: 27-1039x1039.jpg
+  sizes: []
+  thumbnail: 27-thumbnail.jpg
+- filename: '06'
+  original: 06-1920x1275.jpg
+  sizes: []
+  thumbnail: 06-thumbnail.jpg
+- filename: '07'
+  original: 07-1920x1285.jpg
+  sizes: []
+  thumbnail: 07-thumbnail.jpg
+- filename: '04'
+  original: 04-1366x768.jpg
+  sizes: []
+  thumbnail: 04-thumbnail.jpg
+- filename: '23'
+  original: 23-1080x1080.jpg
+  sizes: []
+  thumbnail: 23-thumbnail.jpg
+- filename: 08
+  original: 08-1920x1321.jpg
+  sizes: []
+  thumbnail: 08-thumbnail.jpg
+- filename: 09
+  original: 09-1920x1080.png
+  sizes: []
+  thumbnail: 09-thumbnail.jpg
+- filename: '42'
+  original: 42-1080x1080.jpg
+  sizes: []
+  thumbnail: 42-thumbnail.jpg
+- filename: '29'
+  original: 29-1080x1080.jpg
+  sizes: []
+  thumbnail: 29-thumbnail.jpg
+- filename: '40'
+  original: 40-1080x1080.jpg
+  sizes: []
+  thumbnail: 40-thumbnail.jpg
+- filename: '41'
+  original: 41-1080x1080.jpg
+  sizes: []
+  thumbnail: 41-thumbnail.jpg
+- filename: '05'
+  original: 05-1024x643.jpg
+  sizes: []
+  thumbnail: 05-thumbnail.jpg
+- filename: '24'
+  original: 24-1080x1080.jpg
+  sizes: []
+  thumbnail: 24-thumbnail.jpg
+- filename: '03'
+  original: 03-1920x1080.jpg
+  sizes: []
+  thumbnail: 03-thumbnail.jpg
+- filename: '39'
+  original: 39-1080x1080.jpg
+  sizes: []
+  thumbnail: 39-thumbnail.jpg
+- filename: '01'
+  original: 01-1920x1080.jpg
+  sizes: []
+  thumbnail: 01-thumbnail.jpg
+- filename: '20'
+  original: 20-1080x1080.jpg
+  sizes: []
+  thumbnail: 20-thumbnail.jpg
+- filename: '14'
+  original: 14-1024x1024.jpg
+  sizes: []
+  thumbnail: 14-thumbnail.jpg
 - filename: '11'
   original: 11-2925x2069.jpg
   sizes: []
@@ -12,63 +100,71 @@ pictures:
   original: 13-1024x1024.jpg
   sizes: []
   thumbnail: 13-thumbnail.jpg
-- filename: '01'
-  original: 01-1920x1080.jpg
+- filename: '38'
+  original: 38-1080x1080.jpg
   sizes: []
-  thumbnail: 01-thumbnail.jpg
+  thumbnail: 38-thumbnail.jpg
 - filename: '15'
   original: 15-300x300.jpg
   sizes: []
   thumbnail: 15-thumbnail.jpg
-- filename: '07'
-  original: 07-1920x1285.jpg
+- filename: '22'
+  original: 22-1080x1080.jpg
   sizes: []
-  thumbnail: 07-thumbnail.jpg
-- filename: '04'
-  original: 04-1366x768.jpg
-  sizes: []
-  thumbnail: 04-thumbnail.jpg
-- filename: '05'
-  original: 05-1024x643.jpg
-  sizes: []
-  thumbnail: 05-thumbnail.jpg
-- filename: '18'
-  original: 18-1156x1780.jpg
-  sizes: []
-  thumbnail: 18-thumbnail.jpg
-- filename: 08
-  original: 08-1920x1321.jpg
-  sizes: []
-  thumbnail: 08-thumbnail.jpg
-- filename: '02'
-  original: 02-1920x1080.jpg
-  sizes: []
-  thumbnail: 02-thumbnail.jpg
-- filename: '16'
-  original: 16-1024x1448.jpg
-  sizes: []
-  thumbnail: 16-thumbnail.jpg
-- filename: '12'
-  original: 12-763x534.jpg
-  sizes: []
-  thumbnail: 12-thumbnail.jpg
+  thumbnail: 22-thumbnail.jpg
 - filename: '17'
   original: 17-1024x1448.jpg
   sizes: []
   thumbnail: 17-thumbnail.jpg
-- filename: '06'
-  original: 06-1920x1275.jpg
+- filename: '16'
+  original: 16-1024x1448.jpg
   sizes: []
-  thumbnail: 06-thumbnail.jpg
-- filename: 09
-  original: 09-1920x1080.png
+  thumbnail: 16-thumbnail.jpg
+- filename: '33'
+  original: 33-1080x1080.jpg
   sizes: []
-  thumbnail: 09-thumbnail.jpg
-- filename: '03'
-  original: 03-1920x1080.jpg
+  thumbnail: 33-thumbnail.jpg
+- filename: '18'
+  original: 18-1156x1780.jpg
   sizes: []
-  thumbnail: 03-thumbnail.jpg
-- filename: '14'
-  original: 14-1024x1024.jpg
+  thumbnail: 18-thumbnail.jpg
+- filename: '31'
+  original: 31-1080x1080.jpg
   sizes: []
-  thumbnail: 14-thumbnail.jpg
+  thumbnail: 31-thumbnail.jpg
+- filename: '30'
+  original: 30-1080x1080.jpg
+  sizes: []
+  thumbnail: 30-thumbnail.jpg
+- filename: '37'
+  original: 37-1080x1080.jpg
+  sizes: []
+  thumbnail: 37-thumbnail.jpg
+- filename: '36'
+  original: 36-1080x1080.jpg
+  sizes: []
+  thumbnail: 36-thumbnail.jpg
+- filename: '35'
+  original: 35-1080x1080.jpg
+  sizes: []
+  thumbnail: 35-thumbnail.jpg
+- filename: '34'
+  original: 34-1080x1080.jpg
+  sizes: []
+  thumbnail: 34-thumbnail.jpg
+- filename: '19'
+  original: 19-1080x1080.jpg
+  sizes: []
+  thumbnail: 19-thumbnail.jpg
+- filename: '21'
+  original: 21-1080x1080.jpg
+  sizes: []
+  thumbnail: 21-thumbnail.jpg
+- filename: '32'
+  original: 32-1080x1080.jpg
+  sizes: []
+  thumbnail: 32-thumbnail.jpg
+- filename: '12'
+  original: 12-763x534.jpg
+  sizes: []
+  thumbnail: 12-thumbnail.jpg
